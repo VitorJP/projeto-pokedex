@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
+
+</head>
+<body>
+    <header>
+        <a href="#">
+            <img src="./src/imagens/pokeball.png" alt="pokebola" class="logo">
+        </a>
+        <h1>
+            Pokédex
+        </h1>
+        <a href="#">
+            <button id="botao-alterar-tema">
+                <img src="./src/imagens/sun.png" alt="sol" class="imagem-botao">
+            </button>
+        </a>
+    </header>
+    <main>
+        <ul class="listagem-pokemon">
+            <li class="card-pokemon">
+                <div class="informacoes">
+                    <span>Bulbasaur</span>
+                    <span>#001</span>
+                </div>
+
+                <img src="./src/imagens/bulbasaur.gif" alt="Bulbasaur-imagem" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    Bulbasaur pode ser visto cochilando sob luz solar intensa. Há uma semente em suas costas. Ao absorver raios do sol, sua semente cresce progressivamente.
+                </p>
+            </li>
+
+            <li class="card-pokemon">
+                <div class="informacoes">
+                    <span>Ivysaur</span>
+                    <span>#002</span>
+                </div>
+
+                <img src="./src/imagens/ivysaur.gif" alt="Ivysaur-imagem" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    Há um broto nas costas desse pokémon. Para suportar seu peso, as pernas e o tronco de Ivysaur ficam grossos e fortes. Se começar a passar mais tempo deitado sob a luz do sol, é um sinal de que o broto florecerá em uma flor grande em breve.
+                </p>
+            </li>
+
+            <li class="card-pokemon">
+                <div class="informacoes">
+                    <span>Venusaur</span>
+                    <span>#003</span>
+                </div>
+
+                <img src="./src/imagens/venusaur.gif" alt="Venusaur-imagem" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    Há uma flor grande nas costa de Venusaur. Diz-se que a flor adquire cores vivas se receber muita nutrição e luz solar. O aroma da flor acalma as emoções das pessoas.
+                </p>
+            </li>
+
+            <li class="card-pokemon">
+                <div class="informacoes">
+                    <span>Chamander</span>
+                    <span>#004</span>
+                </div>
+
+                <img src="./src/imagens/charmander.gif" alt="Charmander-imagem" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">
+                    A chama que queima na ponta da cauda é uma indicação de suas emoções. A chama tremula quando Charmander está se divertindo. Se o pokémon se enfurecer, a chama queima ferozmente.
+                </p>
+            </li>
+
+            <li class="card-pokemon">
+                <div class="informacoes">
+                    <span>Charmeleon</span>
+                    <span>#005</span>
+                </div>
+
+                <img src="./src/imagens/charmeleon.gif" alt="Charmeleon-imagem" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">
+                    Charmeleon impiedosamente destrói seus inimigos usando suas garras afiadas. Se encontrar um inimigo forte, ele se torna agressivo. Nesse estado excitado, a chama na ponta de sua cauda brilha com uma cor branca azulada.
+                </p>
+            </li>
+
+            <li class="card-pokemon">
+                <div class="informacoes">
+                    <span>Charizard</span>
+                    <span>#006</span>
+                </div>
+
+                <img src="./src/imagens/charizard.gif" alt="Charizard-imagem" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                    <li class="tipo voador">Voador</li>
+                </ul>
+
+                <p class="descricao">
+                    Charizard voa pelo céu em busca de oponentes poderosos. Ele respira um calor tão grande que derrete qualquer coisa. No entanto, nunca dá um sopro ardente a um oponente mais fraco que ele.
+                </p>
+            </li>
+            
+            <li class="card-pokemon">
+                <div class="informacoes">
+                    <span>Squirtle</span>
+                    <span>#007</span>
+                </div>
+
+                <img src="./src/imagens/squirtle.gif" alt="Squirtle-imagem" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+
+                <p class="descricao">
+                    A concha de Squirtle não é apenas usada para proteção. A forma arredondada da concha e as ranhuras na superfície ajudam a minimizar a resistência na água, permitindo que este pokémon nade em alta velocidade.
+                </p>
+            </li>
+
+            <li class="card-pokemon">
+                <div class="informacoes">
+                    <span>Wartortle</span>
+                    <span>#008</span>
+                </div>
+
+                <img src="./src/imagens/wartortle.gif" alt="Wartortle-imagem" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+
+                <p class="descricao">
+                    Sua cauda é grande e coberta por um pelo farto e espesso. A cauda torna-se cada vez mais profunda na cor à medida que o Wartortle envelhece. Os arranhões em sua concha são uma evidência da dureza deste pokémon como um lutador.
+                </p>
+            </li>
+
+            <li class="card-pokemon">
+                <div class="informacoes">
+                    <span>Blastoise</span>
+                    <span>#009</span>
+                </div>
+
+                <img src="./src/imagens/blastoise.gif" alt="Blastoise-imagem" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+
+                <p class="descricao">
+                    Blastoise tem canhões de água que se projetam de sua concha. Os canhões são muito precisos. Eles podem disparar jatos de água com precisão suficiente para atingir latas vazias a uma distância de mais de 60 metros.
+                </p>
+            </li>
+
+            <li class="card-pokemon">
+                <div class="informacoes">
+                    <span>Caterpie</span>
+                    <span>#010</span>
+                </div>
+
+                <img src="./src/imagens/caterpie.gif" alt="Caterpie-imagem" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                </ul>
+
+                <p class="descricao">
+                    Caterpie tem um apetite voraz. Ele pode devorar folhas maiores que seu corpo diante dos seus olhos. De sua antena, este pokémon libera um odor terrivelmente forte.
+                </p>
+            </li>
+
+        </ul>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
